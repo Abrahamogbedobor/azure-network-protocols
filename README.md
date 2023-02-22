@@ -51,9 +51,33 @@ The above figure shows the steps used in creating VM1 notably, when creating VM1
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/RGvp0Dl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-It is important to take care of the patient, to be followed by the doctor, but it is a time of great pain and suffering. For to come to the smallest detail, no one should practice any kind of work unless he derives some benefit from it. Do not be angry with the pain in the reprimand in the pleasure he wants to be a hair from the pain in the hope that there is no breeding.
+Several resources were created after complete deployment of VM1 as shown above. Resources such as virtual network, public IP, Network Security Group(FIREWALL), and NIC i.e Network Interface Card which is used as an adaptor were all created on VM1 automatically.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DcAXddx.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+VM2 above follows same pattern as VM1 except that VM2 uses linus computer Ubuntu to be precise, the virtual network of both VM1 and VM2 were same as well as subnet.
+</p>
+<br />
+
+<p>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Several resources were creat.
+</p>
+<br />
+
+<p>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Several resources were
 </p>
 <br />
