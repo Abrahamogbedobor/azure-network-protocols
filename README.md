@@ -70,14 +70,15 @@ VM2 above follows same pattern as VM1 except that VM2 uses linus computer Ubuntu
 <img src="https://i.imgur.com/RSBCuO6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Both VM1 and VM2 has been successfully created and deployed. The above network watcher resource was then used to display network topology for both virtual machines as shown above. However, in some cases an error may occur displaying no network watcher found. In such case, the network watcher resource must then be moved into the virtual machine resource group that was created.
+Both VM1 and VM2 has been successfully created and deployed. A network watcher resource was then used to display network topology for both virtual machines as shown above. However, in some cases an error may occur displaying no network watcher found. In such case, the network watcher resource must then be moved into the virtual machine resource group that was created.
 </p>
 <br />
 
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/8vrEquX.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/6ySZBv3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Several resources were
+The above figure shows what has been created. This includes two VMs with network security and public IP on both VM which was then attached to two seperate cloud adaptor (NIC). Both adaptors where jointly attached to a subnet and the subnet was then attached to a virtual network.
 </p>
 <br />
