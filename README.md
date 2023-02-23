@@ -82,3 +82,19 @@ Both VM1 and VM2 has been successfully created and deployed. A network watcher r
 The above figure shows what has been created. This includes two VMs with network security and public IP on both VM which was then attached to two seperate cloud adaptor (NIC). Both adaptors where jointly attached to a subnet and the subnet was then attached to a virtual network.
 </p>
 <br />
+
+<p>
+<img src="https://i.imgur.com/Vz6qAQh.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+The final stage of this lab is sending traffic between both VMs that has been created and observing them using a protocol analyser such as 'wireshark'. Also, several commands will such as SSH, 
+</p>
+<br />
+
+<p>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+The above figure
+</p>
+<br />
