@@ -85,18 +85,10 @@ The above figure shows what has been created. This includes two VMs with network
 
 <p>
 <img src="https://i.imgur.com/Vz6qAQh.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/YDBSHRY.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/gGn2QYK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-The final stage of this lab is observing traffic between both VMs using a protocol analyser such as 'wireshark'. Also, several commands line tools as shown above has been used to genrate these traffics between both VMs before been analyse. First, VM1 was connected to home PC using its public IP address through windows remote desktop connection as previously done on this lab. Second, wireshark was downloaded on VM1 after remote desktop connection which was then used in inspecting traffic between both machines.
+The final stage of this lab is observing traffic between both VMs using a protocol analyser such as 'wireshark'. Also, several commands line tools such as ping and ipconfig were used to send traffic between VM1 and VM2
 </p>
 <br />
 
-<p>
-<img src="https://i.imgur.com/gGn2QYK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/sz2Xsfs.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-In using wireshark, ethernet adaptor was first selected then the start icon at the far left was used in capturing packets in other to see the live traffics on VM1. From the above figure, wireshark is bascially spanning traffic on the PC in other to stop it ICMP was then inputed into a search tab as shown above.
-</p>
-<br />
