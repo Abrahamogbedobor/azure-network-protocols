@@ -14,7 +14,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
-- Various Command-Line Tools
+- Various Command-Line Tools such as PING and IPCONFIG
 - Various Network Protocols (SSH, RDH, DNS, HTTP/S, ICMP)
 - Wireshark (Protocol Analyzer)
 
@@ -97,6 +97,6 @@ The final stage of this lab is observing traffic between both VMs using a protoc
 <img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-From the above figure, ICMP was used to help filttered the traffic. As soon as ICMP was used, the spanning stopped as shown above. 
+From the above figure, ICMP was used to help filttered the traffic. As soon as ICMP was used, the spanning stopped as shown above. Furthermore, to 
 </p>
 <br />
