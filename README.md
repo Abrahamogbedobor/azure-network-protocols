@@ -97,7 +97,7 @@ The final stage of this lab is observing traffic between both VMs using a protoc
 <img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-From the above figure, ICMP was used to help filttered the traffic. As soon as ICMP was used, the spanning stopped as shown above. Notably, ICMP is a protocol used in pinging users. PING is a command line control that is used to test connectivity of any host on a network using its private IP address meaning, to test the connectivity of VVM2 on VM1 virtual network such as PING (vm2 + private ip address)
+From the above figure, ICMP was used to help filttered the traffic. As soon as ICMP was used, the spanning stopped as shown above. Notably, ICMP is a protocol used in pinging users. PING is a command line control that is used to test connectivity of any host on a network using its private IP address meaning, to test the connectivity of VM2 on VM1 virtual network such as PING (vm2 + private ip address)
 </p>
 <br />
 
