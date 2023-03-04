@@ -106,6 +106,6 @@ From the above figure, ICMP was used to help filttered the traffic. As soon as I
 <img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Using powershell on VM1 as shown above
+Using powershell on VM1 as shown above, VM2 private IP was ping which then established communication between both VMs. From the result above, VM1 ping VM2, then 4 packets was sent from VM2 to VM1 after the pinging and 4 packets was received by VM1 with 0 loss. ALso, in analysing the wireshaerk result after pinging, the results shows the source (10.0.0.4) and destination (10.0.0.5) and the protocol used (ICMP) by VM1 to send a reuest to VM1. Then, line2 shows VM2 response using its privatea IP as shown above.
 </p>
 <br />
