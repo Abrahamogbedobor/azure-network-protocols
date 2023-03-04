@@ -88,7 +88,7 @@ The above figure shows what has been created. This includes two VMs with network
 <img src="https://i.imgur.com/gGn2QYK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-The final stage of this lab is observing traffic between both VMs using a protocol analyser such as 'wireshark'. Also, several commands line tools such as ping and ipconfig were used to send traffic between VM1 and VM2. First, wireshark was downloaded on VM1 then the ethernet adapter was clicked along with the blue start icon at the far left end tab. This then start capturing packets and receiving live traffic on VM1 as shown above. In other to filter the above traffic on VM1 network from spanning an internet protocol called ICMP (Internet Control Messaging Protocol) was then used.
+The final stage of this lab is observing traffic between both VMs using a protocol analyser such as 'wireshark'. Also, several commands line tools such as ping and ipconfig were used to send traffic between VM1 and VM2 (Using both private IP address 10.0.0.4 and 10.0.0.5 respectively). First, wireshark was downloaded on VM1 then the ethernet adapter was clicked along with the blue start icon at the far left end tab. This then start capturing packets and receiving live traffic on VM1 as shown above. In other to filter the above traffic on VM1 network from spamming an internet protocol called ICMP (Internet Control Messaging Protocol) was then used.
 </p>
 <br />
 
