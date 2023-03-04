@@ -123,6 +123,13 @@ Also, a perpetual ping was innitiated from VM1 to VM2 meaning, a non stop pingin
 <img src="https://i.imgur.com/Vi2NFAz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-ICMP protocol has been denied on VM2 firewall to prevent VM1 from pinging it even though they both are on same network. The above figure shows the steps used to disabled ICMP traffic coming through this is because ping uses ICMP protocol. In doing that, "network security group" was entered on search tab or one could also do it on VM2, then "inbound security rules" was clicked to show all the security rules on VM2
+ICMP protocol has been denied on VM2 firewall to prevent VM1 from pinging it even though they both are on same network. The above figure shows the steps used to disabled ICMP traffic coming through this is because ping uses ICMP protocol. In doing that, "network security group" was entered on search tab or one could also do it on VM2, then "inbound security rules" was clicked to show all the security rules on VM2. From the rules above, it shows TCP protocols is set to be allowed meaning, any traffics coming to port 32 which is the port number for TCP protocol wont be deny. 
+</p>
+<br />
+
+<img src="https://i.imgur.com/5p96Ok1.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Furthermore, in setting-up ICMP security rules the add button was clicked and a pop-up box appears that was used to input the necessary rules as shown. Notable, ICMP was set as ALLOW prior to this rule. Also, every other rules such as source, desrtination and service stay same except checking ICMP and changing action from allow to deny as shown above.
 </p>
 <br />
