@@ -122,7 +122,7 @@ The figure above shows how a perpetual ping was innitiated from VM1 to VM2 meani
 <img src="https://i.imgur.com/Vi2NFAz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-ICMP protocol has been denied on VM2 firewall to prevent VM1 from pinging it even though they both are on same network. The above figure shows the steps used to disabled ICMP traffic coming through this is because ping uses ICMP protocol. In doing that, "network security group" was entered on search tab or one could also do it on VM2, then "inbound security rules" was clicked to show all the security rules on VM2. From the rules above, it shows TCP protocols is set to be allowed meaning, any traffics coming to port 32 which is the port number for TCP protocol wont be deny. 
+ICMP protocol has been denied on VM2 firewall to prevent VM1 from pinging it even though they both are on same network. The above figure shows the steps used to disabled ICMP traffic coming through this is because ping uses ICMP protocol. In doing that, "network security group" was entered on search tab or one could also do it on VM2, then "inbound security rules" was clicked to show all the security rules on VM2. From the rules above, it shows TCP protocols is set to be allowed meaning, any traffics coming to port 22 which is the port number for TCP protocol wont be deny. 
 </p>
 <br />
 
@@ -130,5 +130,23 @@ ICMP protocol has been denied on VM2 firewall to prevent VM1 from pinging it eve
 </p>
 <p>
 Furthermore, in setting-up ICMP security rules the add button was clicked, then a pop-up box appears that was used to input the necessary rules as shown. Notable, ICMP was set as ALLOW prior to this rule and every other rules such as source, destination and service stay same except checking ICMP and changing action from allow to deny as shown above.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/lPR4bGs.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/onS3MsP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Rtv9AHD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+After setting up the rules, traffics started showing timeout meaning, VM2 firewall is blocking every traffic coming from VM1. Also, wireshark reports as shown above only shows REQUEST with no reply from VM2 this is because VM2 network security group is blocking all the request from VM1 hence, VM2 is not receiving any packet sent by VM1. Again, to allow ICMP one could re-visit azure portal NSG and select VM2 and click on ICMP then switch from DENY to ALLOW as shown above. This is will then allow VM2 NSG to then allow ICMP traffic coming through.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/m9rBfkS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+The above figure uses SSH traffic in replacing RDC. Meaning, instead of using ICMP to gain access to VM2, ssh was used instead to connect to VM2 command line as shown above. In establishing ssh connection, ssh was entered in poweershell followed by username of vm2 linus computer (abraham) @10.0.0.5 which is the private IP address of VM2 as shown above.
 </p>
 <br />
