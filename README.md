@@ -163,8 +163,9 @@ DHCP helps to reassign IP address to a host computer as shown above. As soon as 
 
 <p>
 <img src="https://i.imgur.com/UDF0fmT.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/KvgDlOK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-DNS stands for domain name server. Computer uses numbers to memorize each domain name that human tries to visit. For example, when a user search yahoo.com the DNS server will search for the IP address of yahoo.com before fetching out all the data on yahoo.com to the user. The above diagram is used to illustrate the stages in that process.
+DNS stands for domain name server. Computer uses numbers to memorize each domain name that human tries to visit. For example, when a user search yahoo.com the DNS server will search for the IP address of yahoo.com before fetching out all the data on yahoo.com to the user. The above diagram is used to illustrate the stages in that process. Also, using figure2 shows how using nslookup command is used to ask DNS server what is the IP address of yahoo.com.
 </p>
 <br />
